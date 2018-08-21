@@ -21,6 +21,10 @@ Vue.config.debug = true;
 const router = new VueRouter({
     routes: [
         {
+            path: '/mydemo',
+            component: resolve => require(['./routers/mydemo.vue'], resolve)
+        },
+        {
             path: '/affix',
             component: resolve => require(['./routers/affix.vue'], resolve)
         },

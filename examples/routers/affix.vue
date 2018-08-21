@@ -1,7 +1,5 @@
 <style>
-    body{
-        /*height: 2000px;*/
-    }
+
     .demo-affix{
         width: 100px;
         height: 30px;

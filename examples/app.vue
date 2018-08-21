@@ -204,6 +204,9 @@ li + li {
                 <li>
                     <router-link to="/xbFuzzy">xbFuzzy</router-link>
                 </li>
+                <li>
+                    <router-link to="/mydemo">mydemo</router-link>
+                </li>
             </ul>
         </nav>
         <router-view></router-view>
